@@ -1,0 +1,26 @@
+.navigation-container {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.navigation-container nav {
+	display: flex;
+}
+.navigation-container nav li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.navigation-container nav a {
+	text-decoration: none;
+	padding: 12px 26px;
+	color: black;
+	font-weight: 600;
+	font-size: 24px;
+}
+.navigation-container img {
+	height: 60px;
+}
